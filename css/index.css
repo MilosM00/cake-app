@@ -5,21 +5,29 @@
     font-family: 'Open Sans', sans-serif;
 }
 
+body{
+    position: relative;
+}
+
 /* START NAVBAR */
 
 nav{
+    position: sticky;
+    top: 0;
+    z-index: 20;
+
     padding-top: 10px;
     padding-bottom: 10px;
-    background-color: #954535;
+    background-color: #fff;
     display: flex;
     justify-content: space-evenly;
     align-items: center;
+    box-shadow: 0 0 2px 2px rgba(0,0,0,0.3);
 }
 
 nav > a > img{
-    width: 70px;
+    width: 100px;
     height: 70px;
-    border-radius: 50%;
 }
 
 nav > ul{
@@ -31,32 +39,45 @@ nav > ul{
 }
 
 nav > ul > li > a{
-    color: #fff;
+    color: #000;
     text-decoration: none;
+    font-style: italic;
+    font-weight: 700;
     font-size: 18px;
 }
 
 #hamburger-button{
     display: none;
-    color: #fff;
+    color: #000;
     font-size: 25px;
 }
 
 .hamburger-menu{
+    position: fixed;
+    top: 95px;
+    right: 0;
+    width: 200px;
+    height: 200px;
+    z-index: 10;
+
     padding-top: 10px;
     padding-bottom: 10px;
     display: none;
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    background-color: #954535;
+    background-color: #fff;
+    font-style: italic;
+    font-weight: 700;
+    box-shadow: 0 0 2px 2px rgba(0,0,0,0.3);
+    border-radius: 5px;
     list-style: none;
     gap: 5px;
 }
 
 .hamburger-menu > li > a{
     text-decoration: none;
-    color: #fff;
+    color: #000;
     font-size: 18px;
 }
 
@@ -163,3 +184,66 @@ nav > ul > li > a{
 }
 
 /* END HERO */
+
+/* START ABOUT */
+
+.about{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    background-color: #e2e2e2;
+}
+
+.about > p{
+    font-size: 25px;
+    font-style: italic;
+    font-weight: 700;
+}
+
+.about-inline{
+    padding-top: 50px;
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, 300px);
+    justify-content: center;
+    gap: 20px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.about-inline > div{
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.about-inline > div > i{
+    font-size: 30px;
+    border: 2px solid #954535;
+    color: #954535;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.horisontal-line{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 250px;
+    height: 5px;
+    background-color: #954535;
+    border-radius: 10px;
+}
+
+/* END ABOUT */
