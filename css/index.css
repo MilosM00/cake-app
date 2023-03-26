@@ -116,7 +116,7 @@ nav > ul > li > a{
     top: 0;
     width: 100%;
     height: 100%;
-    background-color: rgba(0,0,0,0.6);
+    background-color: rgba(0,0,0,0.7);
 
     display: flex;
     justify-content: center;
@@ -194,7 +194,7 @@ nav > ul > li > a{
     flex-direction: column;
     padding-top: 50px;
     padding-bottom: 50px;
-    background-color: #e2e2e2;
+    background-color: #fff;
 }
 
 .about > p{
@@ -203,8 +203,14 @@ nav > ul > li > a{
     font-weight: 700;
 }
 
+.about-title{
+    padding-top:50px;
+    padding-bottom:20px;
+    text-align:center;
+    font-size: 20px;
+}
+
 .about-inline{
-    padding-top: 50px;
     width: 100%;
     display: grid;
     grid-template-columns: repeat(auto-fit, 300px);
@@ -247,3 +253,76 @@ nav > ul > li > a{
 }
 
 /* END ABOUT */
+
+/* START CHEFS */
+
+.chefs{
+    padding-top: 50px;
+    padding-bottom: 50px;
+    background-color: #e2e2e2;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.chefs > p{
+    font-size: 25px;
+    font-style: italic;
+    font-weight: 700;
+}
+
+.chefs-title{
+    padding-top:50px;
+    padding-bottom:20px;
+    text-align:center;
+    font-size: 20px;
+}
+
+.chefs-inline{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+.chefs-inline > div{
+    width: 300px;
+    height: 400px;
+    position: relative;
+}
+
+.chefs-inline > div > img{
+    position: absolute;
+    top: 0;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+.chefs-inline > div > div{
+    position: absolute;
+    bottom:0;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #954535;
+    height: 100px;
+    width: 100%;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
+.chefs-inline > div > div > p{
+    color: #fff;
+    font-size: 25px;
+    font-style: italic;
+}
+
+@media (max-width: 960px) {
+    .chefs-inline{
+        flex-direction: column;
+    }
+}
+
+/* END CHEFS */
