@@ -6,16 +6,20 @@ const navImage = document.querySelector("#nav-image");
 let hamburger = true;
 
 const openMenu = () =>{
+
+    setTimeout(() => { hamburgerMenu.style.opacity = "1"; }, 10);
+    hamburgerMenu.style.display = "flex";
     hamburgerButton.classList.remove("fa-bars");
     hamburgerButton.classList.add("fa-times");
-    hamburgerMenu.style.display = "flex";
     hamburger = false;
 };
 
 const closeMenu = () =>{
+
+    setTimeout(() => { hamburgerMenu.style.display = "none"; }, 500);
+    hamburgerMenu.style.opacity = "0";
     hamburgerButton.classList.add("fa-bars");
     hamburgerButton.classList.remove("fa-times");
-    hamburgerMenu.style.display = "none";
     hamburger = true;
 };
 
