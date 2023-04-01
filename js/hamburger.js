@@ -33,4 +33,5 @@ hamburgerLi[1].addEventListener("click", () =>{ closeMenu(); });
 hamburgerLi[2].addEventListener("click", () =>{ closeMenu(); });
 hamburgerLi[3].addEventListener("click", () =>{ closeMenu(); });
 hamburgerLi[4].addEventListener("click", () =>{ closeMenu(); });
+hamburgerLi[5].addEventListener("click", () =>{ closeMenu(); });
 navImage.addEventListener("click", () =>{ closeMenu(); });
