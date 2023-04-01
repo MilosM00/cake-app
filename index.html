@@ -20,8 +20,8 @@
     <nav>
         <a href="#"><img id="nav-image" src="images/cake-logo.jpg" alt="cake application" /></a>
         <ul>
-            <li><a href="#">Home</a></li>
-            <li><a href="#">About</a></li>
+            <li><a href="">Home</a></li>
+            <li><a href="">About</a></li>
             <li><a href="#">Chefs</a></li>
             <li><a href="#">Cakes</a></li>
             <li><a href="#">Contact</a></li>
@@ -458,6 +458,37 @@
     </div>
 
     <!-- END TESTIMONIALS -->
+
+    <!-- START FOOTER -->
+
+    <footer>
+        <div class="div-image">
+            <a href="#"><img src="images/cake-logo-white.png" width="120" height="80" alt="Cake Application" /></a>
+        </div>
+        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit.</p>
+        <div class="footer-inline-link">
+            <a href="https://www.facebook.com/" target="_blank"><i class="fa fa-facebook"></i></a>
+            <a href="https://www.instagram.com/" target="_blank"><i class="fa fa-instagram"></i></a>
+            <a href="https://www.linkedin.com/" target="_blank"><i class="fa fa-linkedin"></i></a>
+            <a href="https://www.youtube.com/" target="_blank"><i class="fa fa-youtube"></i></a>
+        </div>
+    </footer>
+
+    <!-- END FOOTER -->
+
+    <!-- START AFTER FOOTER -->
+
+    <div class="after-footer">
+        <p>© <span id="year"></span> Designed And Developed By <a href="https://github.com/milosm00" target="_blank">MM</a>.</p>
+    </div>
+
+    <script>
+        const year = document.querySelector("#year");
+        let date = new Date();
+        year.textContent = date.getFullYear();
+    </script>
+
+    <!-- END AFTER FOOTER -->
 
 </body>
 </html>
