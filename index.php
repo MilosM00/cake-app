@@ -30,8 +30,8 @@
             <p>The best cakes are here! Place an order now!</p>
 
             <div>
-                <a href="cakes" class="hero-button-one">Our Cakes</a>
-                <a href="about" class="hero-button-two">Learn More</a>
+                <a href="#cakes" class="hero-button-one">Our Cakes</a>
+                <a href="#about" class="hero-button-two">Learn More</a>
             </div>
 
         </div>
@@ -155,7 +155,7 @@
                 </div>
             </div>
 
-            <a href="cakes">Order Now</a>
+            <a href="#cakes">Order Now</a>
 
         </div>
     </div>
@@ -181,7 +181,7 @@
                 <img src="images/cake-two.jpg" alt="Cake Application" />
                 <p class="cake-info">
                     <span class="cake-price">45.00$ <span><del style="color:red; font-size:15px;">90.00$</del></span></span>
-                    <a href="#" class="cake-button-href">Order</a>
+                    <a href="form.php?category=Birthday&cake=Chocolate" class="cake-button-href">Order</a>
                 </p>
                 <p class="cake-text">Chocolate Cake</p>
                 <p class="cake-sale">50%</p>
@@ -191,7 +191,7 @@
                 <img src="images/cake-two.jpg" alt="Cake Application" />
                 <p class="cake-info">
                     <span class="cake-price">40.00$ <span><del style="color:red; font-size:15px;">80.00$</del></span></span>
-                    <a href="#" class="cake-button-href">Order</a>
+                    <a href="form.php?category=Birthday&cake=Strawberry" class="cake-button-href">Order</a>
                 </p>
                 <p class="cake-text">Strawberry Cake</p>
                 <p class="cake-sale">50%</p>
@@ -201,7 +201,7 @@
                 <img src="images/cake-two.jpg" alt="Cake Application" />
                 <p class="cake-info">
                     <span class="cake-price">35.00$ <span><del style="color:red; font-size:15px;">70.00$</del></span></span>
-                    <a href="#" class="cake-button-href">Order</a>
+                    <a href="form.php?category=Birthday&cake=Vanilla" class="cake-button-href">Order</a>
                 </p>
                 <p class="cake-text">Vanilla Cake</p>
                 <p class="cake-sale">50%</p>
@@ -211,7 +211,7 @@
                 <img src="images/cake-two.jpg" alt="Cake Application" />
                 <p class="cake-info">
                     <span class="cake-price">50.00$ <span><del style="color:red; font-size:15px;">100.00$</del></span></span>
-                    <a href="#" class="cake-button-href">Order</a>
+                    <a href="form.php?category=Birthday&cake=Cherry" class="cake-button-href">Order</a>
                 </p>
                 <p class="cake-text">Cherry Cake</p>
                 <p class="cake-sale">50%</p>
@@ -221,7 +221,7 @@
                 <img src="images/cake-two.jpg" alt="Cake Application" />
                 <p class="cake-info">
                     <span class="cake-price">30.00$ <span><del style="color:red; font-size:15px;">60.00$</del></span></span>
-                    <a href="#" class="cake-button-href">Order</a>
+                    <a href="form.php?category=Birthday&cake=Cheese" class="cake-button-href">Order</a>
                 </p>
                 <p class="cake-text">Cheese Cake</p>
                 <p class="cake-sale">50%</p>
@@ -231,7 +231,7 @@
                 <img src="images/cake-two.jpg" alt="Cake Application" />
                 <p class="cake-info">
                     <span class="cake-price">25.00$ <span><del style="color:red; font-size:15px;">50.00$</del></span></span>
-                    <a href="#" class="cake-button-href">Order</a>
+                    <a href="form.php?category=Birthday&cake=Lemon" class="cake-button-href">Order</a>
                 </p>
                 <p class="cake-text">Lemon Cake</p>
                 <p class="cake-sale">50%</p>
@@ -246,7 +246,7 @@
                 <img src="images/cake-three.jpg" alt="Cake Application" />
                 <p class="cake-info">
                     <span class="cake-price">60.00$ <span><del style="color:red; font-size:15px;">120.00$</del></span></span>
-                    <a href="#" class="cake-button-href">Order</a>
+                    <a href="form.php?category=Wedding&cake=Chocolate" class="cake-button-href">Order</a>
                 </p>
                 <p class="cake-text">Chocolate Cake</p>
                 <p class="cake-sale">50%</p>
@@ -256,7 +256,7 @@
                 <img src="images/cake-three.jpg" alt="Cake Application" />
                 <p class="cake-info">
                     <span class="cake-price">45.00$ <span><del style="color:red; font-size:15px;">90.00$</del></span></span>
-                    <a href="#" class="cake-button-href">Order</a>
+                    <a href="form.php?category=Wedding&cake=Strawberry" class="cake-button-href">Order</a>
                 </p>
                 <p class="cake-text">Strawberry Cake</p>
                 <p class="cake-sale">50%</p>
@@ -266,7 +266,7 @@
                 <img src="images/cake-three.jpg" alt="Cake Application" />
                 <p class="cake-info">
                     <span class="cake-price">55.00$ <span><del style="color:red; font-size:15px;">110.00$</del></span></span>
-                    <a href="#" class="cake-button-href">Order</a>
+                    <a href="form.php?category=Wedding&cake=Vanilla" class="cake-button-href">Order</a>
                 </p>
                 <p class="cake-text">Vanilla Cake</p>
                 <p class="cake-sale">50%</p>
@@ -276,7 +276,7 @@
                 <img src="images/cake-three.jpg" alt="Cake Application" />
                 <p class="cake-info">
                     <span class="cake-price">65.00$ <span><del style="color:red; font-size:15px;">130.00$</del></span></span>
-                    <a href="#" class="cake-button-href">Order</a>
+                    <a href="form.php?category=Wedding&cake=Cherry" class="cake-button-href">Order</a>
                 </p>
                 <p class="cake-text">Cherry Cake</p>
                 <p class="cake-sale">50%</p>
@@ -286,7 +286,7 @@
                 <img src="images/cake-three.jpg" alt="Cake Application" />
                 <p class="cake-info">
                     <span class="cake-price">40.00$ <span><del style="color:red; font-size:15px;">80.00$</del></span></span>
-                    <a href="#" class="cake-button-href">Order</a>
+                    <a href="form.php?category=Wedding&cake=Cheese" class="cake-button-href">Order</a>
                 </p>
                 <p class="cake-text">Cheese Cake</p>
                 <p class="cake-sale">50%</p>
@@ -296,7 +296,7 @@
                 <img src="images/cake-three.jpg" alt="Cake Application" />
                 <p class="cake-info">
                     <span class="cake-price">30.00$ <span><del style="color:red; font-size:15px;">60.00$</del></span></span>
-                    <a href="#" class="cake-button-href">Order</a>
+                    <a href="form.php?category=Wedding&cake=Lemon" class="cake-button-href">Order</a>
                 </p>
                 <p class="cake-text">Lemon Cake</p>
                 <p class="cake-sale">50%</p>
@@ -311,7 +311,7 @@
                 <img src="images/cake-one.jpg" alt="Cake Application" />
                 <p class="cake-info">
                     <span class="cake-price">45.00$ <span><del style="color:red; font-size:15px;">90.00$</del></span></span>
-                    <a href="#" class="cake-button-href">Order</a>
+                    <a href="form.php?category=Custom&cake=Chocolate" class="cake-button-href">Order</a>
                 </p>
                 <p class="cake-text">Chocolate Cake</p>
                 <p class="cake-sale">50%</p>
@@ -321,7 +321,7 @@
                 <img src="images/cake-one.jpg" alt="Cake Application" />
                 <p class="cake-info">
                     <span class="cake-price">50.00$ <span><del style="color:red; font-size:15px;">100.00$</del></span></span>
-                    <a href="#" class="cake-button-href">Order</a>
+                    <a href="form.php?category=Custom&cake=Strawberry" class="cake-button-href">Order</a>
                 </p>
                 <p class="cake-text">Strawberry Cake</p>
                 <p class="cake-sale">50%</p>
@@ -331,7 +331,7 @@
                 <img src="images/cake-one.jpg" alt="Cake Application" />
                 <p class="cake-info">
                     <span class="cake-price">55.00$ <span><del style="color:red; font-size:15px;">110.00$</del></span></span>
-                    <a href="#" class="cake-button-href">Order</a>
+                    <a href="form.php?category=Custom&cake=Vanilla" class="cake-button-href">Order</a>
                 </p>
                 <p class="cake-text">Vanilla Cake</p>
                 <p class="cake-sale">50%</p>
@@ -341,7 +341,7 @@
                 <img src="images/cake-one.jpg" alt="Cake Application" />
                 <p class="cake-info">
                     <span class="cake-price">60.00$ <span><del style="color:red; font-size:15px;">120.00$</del></span></span>
-                    <a href="#" class="cake-button-href">Order</a>
+                    <a href="form.php?category=Custom&cake=Cherry" class="cake-button-href">Order</a>
                 </p>
                 <p class="cake-text">Cherry Cake</p>
                 <p class="cake-sale">50%</p>
@@ -351,7 +351,7 @@
                 <img src="images/cake-one.jpg" alt="Cake Application" />
                 <p class="cake-info">
                     <span class="cake-price">65.00$ <span><del style="color:red; font-size:15px;">130.00$</del></span></span>
-                    <a href="#" class="cake-button-href">Order</a>
+                    <a href="form.php?category=Custom&cake=Cheese" class="cake-button-href">Order</a>
                 </p>
                 <p class="cake-text">Cheese Cake</p>
                 <p class="cake-sale">50%</p>
@@ -361,7 +361,7 @@
                 <img src="images/cake-one.jpg" alt="Cake Application" />
                 <p class="cake-info">
                     <span class="cake-price">40.00$ <span><del style="color:red; font-size:15px;">80.00$</del></span></span>
-                    <a href="#" class="cake-button-href">Order</a>
+                    <a href="form.php?category=Custom&cake=Lemon" class="cake-button-href">Order</a>
                 </p>
                 <p class="cake-text">Lemon Cake</p>
                 <p class="cake-sale">50%</p>
