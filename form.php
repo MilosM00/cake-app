@@ -10,6 +10,7 @@
     <script src="https://kit.fontawesome.com/2c28c53cee.js" crossorigin="anonymous" defer></script>
     <link rel="stylesheet" href="css/form.css">
     <script src="js/hamburger.js" defer></script>
+    <script src="js/form.js" defer></script>
     <title>FORM</title>
 </head>
 <body>
@@ -23,20 +24,20 @@
         <p>Please, enter your data.</p>
 
         <form class="form" method="POST" action="thank-you.php">
-            <label>First Name</label>
-            <input type="text" placeholder="Your First Name..." name="firstName" />
+            <label id="label-first-name">First Name</label>
+            <input id="input-first-name" type="text" placeholder="Your First Name..." name="firstName" />
 
-            <label>Last Name</label>
-            <input type="text" placeholder="Your Last Name..." name="lastName" />
+            <label id="label-last-name">Last Name</label>
+            <input id="input-last-name" type="text" placeholder="Your Last Name..." name="lastName" />
 
-            <label>Phone Number</label>
-            <input type="text" placeholder="Your Phone Number..." name="phone" />
+            <label id="label-phone-number">Phone Number</label>
+            <input id="input-phone-number" type="text" placeholder="Your Phone Number..." name="phone" />
 
-            <label>Email Address</label>
-            <input type="text" placeholder="Your Email Address..." name="email" />
+            <label id="label-email-address">Email Address</label>
+            <input id="input-email-address" type="text" placeholder="Your Email Address..." name="email" />
 
-            <label>Street Address</label>
-            <input type="text" placeholder="Your Street Address..." name="address" />
+            <label id="label-street-address">Street Address</label>
+            <input id="input-street-address" type="text" placeholder="Your Street Address..." name="address" />
             
             <input class="submit-button" type="submit" value="Submit" />
         </form>
