@@ -15,8 +15,16 @@
 </head>
 <body>
     <!-- START NAVBAR -->
-    <?php include("navbar.php") ?>
+    <?php include("navbar.php"); ?>
     <!-- END NAVBAR -->
+
+    <?php 
+
+        $category = $_GET["category"];
+        $cake = $_GET["cake"];
+    
+    ?>
+
 
     <!-- START FORM -->
     <div class="form-div">
@@ -38,6 +46,9 @@
 
             <label id="label-street-address">Street Address</label>
             <input id="input-street-address" type="text" placeholder="Your Street Address..." name="address" />
+
+            <input type="hidden" value="<?php echo $category; ?>" name="category" />
+            <input type="hidden" value="<?php echo $cake; ?>" name="cake" />
             
             <input class="submit-button" type="submit" value="Submit" />
         </form>
@@ -45,7 +56,7 @@
     <!-- END FORM -->
 
     <!-- START FOOTER -->
-    <?php include("footer.php") ?>
+    <?php include("footer.php"); ?>
     <!-- END FOOTER -->
 </body>
 </html>
