@@ -7,8 +7,8 @@ let hamburger = true;
 
 const openMenu = () =>{
 
-    setTimeout(() => { hamburgerMenu.style.opacity = "1"; }, 10);
-    hamburgerMenu.style.display = "flex";
+    hamburgerMenu.style.visibility = "visible";
+    hamburgerMenu.style.opacity = "1"
     hamburgerButton.classList.remove("fa-bars");
     hamburgerButton.classList.add("fa-times");
     hamburger = false;
@@ -16,7 +16,7 @@ const openMenu = () =>{
 
 const closeMenu = () =>{
 
-    setTimeout(() => { hamburgerMenu.style.display = "none"; }, 500);
+    hamburgerMenu.style.visibility = "hidden";
     hamburgerMenu.style.opacity = "0";
     hamburgerButton.classList.add("fa-bars");
     hamburgerButton.classList.remove("fa-times");
