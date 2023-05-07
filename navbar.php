@@ -83,7 +83,7 @@ nav > ul > li > a{
 
     padding-top: 10px;
     padding-bottom: 10px;
-    display: none;
+    display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
